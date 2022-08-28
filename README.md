@@ -2,6 +2,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+open [contact-manager-app](https://amin-bsh.github.io/contact-manager-app/contacts) to view my project.
+
 ## Available Scripts
 
 In the project directory, you can run:
