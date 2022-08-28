@@ -1,4 +1,5 @@
 {
+  "homepage": "https://Amin-BSH.github.io/contact-manager-app",
   "name": "contact-manager-app",
   "version": "0.1.0",
   "private": true,
@@ -22,6 +23,8 @@
     "yup": "^0.32.11"
   },
   "scripts": {
+    "predeploy": "react-scripts build",
+    "deploy": "gh-pages -d build",
     "start": "concurrently \"react-scripts start\" \"cd server && npm start \"",
     "build": "react-scripts build",
     "test": "react-scripts test",
