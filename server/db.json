@@ -1,0 +1,37 @@
+{
+  "contacts": [
+    {
+      "fullname": "امین بشارتیان",
+      "photo": "",
+      "mobile": "09166598443",
+      "email": "amin@gmail.com",
+      "job": "software enginner",
+      "group": "4",
+      "moreDetails": "پیش به سوی موفقیت.",
+      "id": 1,
+      "address": "lorestan"
+    }
+  ],
+  "groups": [
+    {
+      "id": "1",
+      "name": "همکار"
+    },
+    {
+      "id": "2",
+      "name": "دوست"
+    },
+    {
+      "id": "3",
+      "name": "فامیل"
+    },
+    {
+      "id": "4",
+      "name": "سرویس"
+    },
+    {
+      "id": "5",
+      "name": "آشنا"
+    }
+  ]
+}
