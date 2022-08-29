@@ -15,11 +15,11 @@ const EditContact = () => {
   const { contactId } = useParams();
   const {
     setContacts,
-    contacts,
     setFilteredContacts,
     loading,
     setLoading,
     groups,
+    contactSearch,
   } = useContext(ContactContext);
 
   const navigate = useNavigate();
@@ -58,7 +58,7 @@ const EditContact = () => {
           const contactIndex = draft.findIndex(c => c.id === parseInt(contactId));
           draft[contactIndex] = { ...data }
         })
-        setFilteredContacts([...contacts])
+        contactSearch(null)
         navigate("/contacts");
       }
     } catch (err) {

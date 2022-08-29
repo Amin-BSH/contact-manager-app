@@ -171,8 +171,8 @@ const App = () => {
         <ToastContainer
           rtl={true}
           position="top-right"
-          theme="colored" 
-          autoClose={1500}/>
+          theme="colored"
+          autoClose={1500} />
         <Navbar />
         <Routes>
           <Route path="/" element={<Navigate to="/contacts" />} />
