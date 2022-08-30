@@ -58,7 +58,6 @@ const EditContact = () => {
           const contactIndex = draft.findIndex(c => c.id === parseInt(contactId));
           draft[contactIndex] = { ...data }
         })
-        contactSearch(null)
         navigate("/contacts");
       }
     } catch (err) {
