@@ -1,6 +1,7 @@
 import { useLocation } from "react-router-dom";
 
 import SearchContact from "./Contacts/SearchContact";
+// import ColorFull from "../hoc/ColorFull";
 
 import { BACKGROUND, PURPLE } from "../helpers/colors";
 
@@ -31,4 +32,6 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Navbar
+
+// export default ColorFull(Navbar);
